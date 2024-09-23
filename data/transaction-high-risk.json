@@ -1,0 +1,25 @@
+{
+  "transaction_id": "1111",
+  "timestamp": "2024-09-22T23:59:59Z",
+  "transaction_location": "Unknown Location",
+  "company": {
+    "company_id": "111",
+    "company_name": "Shadow Enterprises",
+    "address": "0000 Nowhere Lane, Imaginary City, ZZ, 00000, USA",
+    "email": "ghost@shadowenterprises.biz",
+    "credit_rating": 300
+  },
+  "client": {
+    "client_id": "1",
+    "name": "Phantom Traders",
+    "email": "contact@phantomtraders.xyz",
+    "credit_rating": 250,
+    "total_cost": 1000000.00
+  },
+  "risk_assessment": {
+    "client_id": "1",
+    "risk_score": 95.0,
+    "risk_level": "High",
+    "approval_status": "Pending Investigation"
+  }
+}

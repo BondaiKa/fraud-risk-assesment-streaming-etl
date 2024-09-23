@@ -1,0 +1,25 @@
+{
+  "transaction_id": "2222",
+  "timestamp": "2024-09-22T10:30:00Z",
+  "transaction_location": "New York, NY, USA",
+  "company": {
+    "company_id": "22",
+    "company_name": "Global Tech Solutions",
+    "address": "4567 Innovation Park, New York, NY, 10002, USA",
+    "email": "contact@globaltechsolutions.com",
+    "credit_rating": 750
+  },
+  "client": {
+    "client_id": "2",
+    "name": "Office Essentials LLC",
+    "email": "sales@officeessentials.com",
+    "credit_rating": 720,
+    "total_cost": 15000.00
+  },
+  "risk_assessment": {
+    "client_id": "2",
+    "risk_score": 25.5,
+    "risk_level": "Low",
+    "approval_status": "Approved"
+  }
+}
