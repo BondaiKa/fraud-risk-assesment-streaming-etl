@@ -10,7 +10,7 @@ all: .development-environment
 
 .PHONY: test
 test:
-	bash AZURE_APPCONFIG_CONNECTION_STRING="$AZURE_APPCONFIG_CONNECTION_STRING" AZURE_APPCONFIG_EVENT_HUB_NAME=kafka-transaction python3 ./kafka/dummy-producer.py  ./dummy-run.sh
+	bash AZURE_APPCONFIG_CONNECTION_STRING="$AZURE_APPCONFIG_CONNECTION_STRING" AZURE_APPCONFIG_EVENT_HUB_NAME=kafka-transaction python3 ./kafka/dummy-producer.py
 
 .PHONY: clean
 clean:
