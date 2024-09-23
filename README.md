@@ -29,7 +29,7 @@ So after analysing the given requirements I have create next plan to implement i
 
 #### Shortly
 
-- In [kafka](./kafka/) folder i used a code to send data to `Azure`
+- In [kafka](./kafka/) folder i used a code to send data to `Azure` (to rund it you can use `make test` but you need to have in bashrc your shell `$AZURE_APPCONFIG_CONNECTION_STRING` and `$EVENT_HUB_NAME` variables)
 - in the [notebook](./notebooks/risk-assesment-notebook.ipynb) - main code of Spark transformations etc
 
 #### High level of architecture
