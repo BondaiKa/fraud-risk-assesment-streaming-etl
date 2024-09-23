@@ -36,9 +36,9 @@ So after analysing the given requirements I have create next plan to implement i
 
 ![High level architecture](./docs/high-level-arhitecture.png)
 
--  First step would be: Use `Kafka`(`Event Hub`) to store all incomming json data. It's good data bug that we can collect data and process it later. The example of json I put in [data](./data/) folder
+-  First step would be: Use `Kafka`(`Event Hub`) to store all incomming json data. It's good to store it temporary, so we can collect data and process it later. The example of json I put in [data](./data/) folder ![Event Hub](./docs/Screenshot%202024-09-23%20at%2020.43.40.png) ![Event Hub](./docs/Screenshot%202024-09-23%20at%2020.44.11.png)
 -  In `Azure Databricks` part I receive data from Kafka and start process by micro-batches (Spark Streaming is less effective than Flink, but i know Spark API at least)
--  As for storage I will use Azure Data Lake Storage Gen2 (Databricks uses it by default to store delta tables in the Datbricks cluster) with mix of SCD Type 1 and Type 2.
+-  As for storage I will use Azure Data Lake Storage Gen2 (Databricks uses it by default to store delta tables in the Datbricks cluster) with mix of SCD Type 1 and Type 2. ![Azure databricks dbfs](./docs/Screenshot%202024-09-23%20at%2020.45.48.png)
 
 ##### Observation
 Since my task is risk assesment - the most important data should have history for Data Scientists model for their ML networks. I decided to use 
